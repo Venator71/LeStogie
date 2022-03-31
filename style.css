@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+* {
+    
+    font-family: 'Marck Script', cursive;
+}
+
+body {
+   
+    font-family: 'Marck Script', cursive;
+
+}
+.card .card-img-top {
+    width: fill;
+    height: 45%;
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: black;
+    
+    
+}
+
+
+.card {
+    border: burlywood 5px solid;
+    height: 550px;
+
+}
+
+.button1 {
+    margin-top:100px;
+ 
+}
+
+#showcase {
+
+    background-image: url("Images/cigar.jpg");
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Media Queries */
+
+@media (min-width:992px){
+    .card-text { 
+        height: 110px;
+        
+    }
+
+
+}
+@media (min-width:1200px){
+    .card-text {
+
+        height: 90px;
+    }
+
+
+}
+@media (min-width:1400px){
+    .card-text {
+        height: 70px;
+
+    }
+
+}
